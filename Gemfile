@@ -3,7 +3,9 @@ source 'https://rubygems.org'
 # Declare your gem's dependencies in bit_pay_rails.gemspec.
 # Bundler will treat runtime dependencies like base dependencies, and
 # development dependencies will be added by default to the :development group.
-gem 'rake', "~> 10.4.2" 
+gem 'rake', "~> 10.4.2"
+
+gem "bitpay-sdk", :git => "https://github.com/bvsh/ruby-client.git", :branch => "master"
 gemspec
 
 # Declare any dependencies that are still in development here instead of in
